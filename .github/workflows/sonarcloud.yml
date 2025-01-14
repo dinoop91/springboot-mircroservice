@@ -1,7 +1,7 @@
 name: SonarCloud Scan
 
 on:
-  workflow_dispatch: # Allows manual triggering of the scan via GitHub UI
+  workflow_dispatch:  # Only manual trigger
 
 jobs:
   sonarcloud:
